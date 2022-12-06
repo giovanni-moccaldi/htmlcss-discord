@@ -109,7 +109,8 @@ main>section>.container {
 
 .footer-main {
 	padding-top: 10px;
-
+    display: flex;
+	justify-content: space-between;
 
 	/* debug */
 	background-color: #23272a;
@@ -120,6 +121,7 @@ main>section>.container {
 	padding-bottom: 50px;
 	margin-bottom: 50px;
 	border-bottom: 2px solid purple;
+	
 
 	/* debug */
 	min-height: 500px;
@@ -128,14 +130,14 @@ main>section>.container {
 .footer-main-col {
 	width: calc(100% / 3);
 	color: purple;
-	ont-size: large;
+	font-size: large;
 	font-family: 'Anton', sans-serif;
      
 	
 
 	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
+	background-color: #23272a;
+	
 }
 
 .footer-side-col {
@@ -143,16 +145,19 @@ main>section>.container {
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
+	background-color: #23272a;
+	
 }
 
 .footer-col {
 	width: 25%;
-
+    color: purple;
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+	font-size: large;
+	font-family: 'Anton', sans-serif;
+	padding: 30px;
+	
+	
 }
 
 .footer-bottom {
@@ -171,5 +176,5 @@ main>section>.container {
 
 	/* debug */
 	background-color: #ffb6c1;
-	border: 2px dashed black;
+	
 }
