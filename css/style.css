@@ -40,7 +40,9 @@
 	
 	
 }
-
+#bg-gray{
+	text-align: center;
+}
 .header-login {
 	text-align: right;
 	color: black;
@@ -50,10 +52,11 @@
 	border;
 }
 
-/* JUMBOTRON */
-#descrizione{
-
 }
+
+/* JUMBOTRON */
+
+
 .jumbotron {
 	padding: 0;
 	display: flex;
@@ -90,11 +93,13 @@ main>section>.container {
 	
 }
 
+
 .side-col {
-     
+	
+    
 
 
-	/* debug */
+	
 	
 	
 }
@@ -102,11 +107,12 @@ main>section>.container {
 
 .hilighted-content {
 	flex-grow: 1;
+
 	
 	
 
 	/* debug */
-	min-height: 800px;
+	min-height: 1200px;
 	
 	
 }
