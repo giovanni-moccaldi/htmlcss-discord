@@ -72,6 +72,10 @@ align-content:space-between;
 	
 
 }
+.wave-1hkx0o{
+	display: block;
+	color: lightblue;
+}
 .jumbotron {
 	padding: 0;
 	display: flex;
@@ -101,8 +105,12 @@ main>section>.container {
 
 .bg-gray {
 	background-color: lightgray;
+	
 }
-
+.wave{
+	display: block;
+	background-size: cover;
+}
 .container{
 	display:flex;
 	align-items:flex-start;
@@ -116,14 +124,11 @@ main>section>.container {
 	min-width: 1200px;
 	text-align: center;
 	
-	j
-	
-
-	/* debug */
 	
 	
 	
 }
+
 
 
 /* FOOTER */
