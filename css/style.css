@@ -66,13 +66,21 @@ h1{
 
 /* JUMBOTRON */
 
+.descrizione{
+	
+align-content:space-between;
+	
 
+}
 .jumbotron {
 	padding: 0;
 	display: flex;
 	height: 600px;;
 	width: 1400px;
 	background-image: url(../img10/jumbo.png);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 
 }
 
