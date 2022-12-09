@@ -137,6 +137,9 @@ main>section>.container {
 	padding-top: 10px;
     display: flex;
 	justify-content: space-between;
+	align-content: center;
+	
+	
 
 	/* debug */
 	background-color: #23272a;
@@ -159,9 +162,9 @@ main>section>.container {
 	color: purple;
 	font-size: large;
 	font-family: 'Anton', sans-serif;
-	
-	
-	 ;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
      
 	
 
@@ -169,6 +172,10 @@ main>section>.container {
 	background-color: #23272a;
 	
 }
+#icone{
+	display: flex;
+}
+
 
 .footer-side-col {
 	display: flex;
